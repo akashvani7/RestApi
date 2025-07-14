@@ -1,0 +1,42 @@
+// Base model
+package com.app.E_commerces.basemodel;
+import java.util.Date;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class Basemodel {
+	private Long id;
+	private Date Createdate;
+	private Date lastupdate ;
+	private State state;
+	
+	public Long getId() {
+		return id;
+	}
+	public void setId(Long id) {
+		this.id = id;
+	}
+	public Date getCreatedate() {
+		return Createdate;
+	}
+	public void setCreatedate(Date createdate) {
+		Createdate = createdate;
+	}
+	public Date getLastupdate() {
+		return lastupdate;
+	}
+	public void setLastupdate(Date lastupdate) {
+		this.lastupdate = lastupdate;
+	}
+	public State getState() {
+		return state;
+	}
+	public void setState(State state) {
+		this.state = state;
+	}
+
+	
+}
